@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Features from './components/Features';
 import ProductGrid from './components/ProductGrid';
+import Testimonials from './components/Testimonials';
+import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 
 function App() {
@@ -17,7 +20,10 @@ function App() {
     <div className="min-h-screen bg-white">
       <Header cartItems={cartItems} />
       <Hero />
+      <Features />
       <ProductGrid onAddToCart={handleAddToCart} />
+      <Testimonials />
+      <Newsletter />
       <Footer />
     </div>
   );

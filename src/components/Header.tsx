@@ -90,8 +90,7 @@ const Header = ({ cartItems = 0 }: { cartItems?: number }) => {
                 </span>
               )}
             </button>
-          </div>
-
+            
             {/* Mobile menu button */}
             <div className="lg:hidden">
               <button
